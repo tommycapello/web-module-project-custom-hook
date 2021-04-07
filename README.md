@@ -16,26 +16,26 @@ In this project you'll take this crypto currency tracker app and build two custo
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd dark-mode`
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [done] Create a forked copy of this project.
+- [done] Clone your OWN version of the repository in your terminal
+- [done] CD into the project base directory `cd dark-mode`
+- [done] Download project dependencies by running `npm install`
+- [done] Start up the app using `npm start`
+- [done] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [done] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [done] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into main (student's Repository). **Please don't merge your own pull request**
-- [ ] From the home page of your repo, make sure you have your branch selected
-- [ ] Copy the URL and paste it into Canvas
-  
+- [done] Submit a Pull-Request to merge <firstName-lastName> Branch into main (student's Repository). **Please don't merge your own pull request**
+- [done] From the home page of your repo, make sure you have your branch selected
+- [done] Copy the URL and paste it into Canvas
+
 ## Minimum Viable Product
 
-- [ ] Build a custom hook that let's you save data to localStorage
-- [ ] Build a second custom hook that sets the `dark-mode` class on the body element
-- [ ] Compose your two new hooks together to be able to set and persist your user's dark mode preference in your app
+- [done] Build a custom hook that let's you save data to localStorage
+- [done] Build a second custom hook that sets the `dark-mode` class on the body element
+- [done] Compose your two new hooks together to be able to set and persist your user's dark mode preference in your app
 
 ## STEP 1 - useLocalStorage
 
@@ -84,7 +84,7 @@ export const useLocalStorage = (key, initialValue) => {
   - `setValue` should look something like this:
 
 ```js
-const setValue = value => {
+const setValue = (value) => {
   // Save state
   setStoredValue(value);
   // Save to local storage
